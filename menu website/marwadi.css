@@ -1,0 +1,179 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: roboto;
+}
+
+.navcontainer {
+    background-color: #041e25;
+background-image: linear-gradient(225deg, #041e25 0%, #80D0C7 100%);
+ /* background color */
+    padding: 10px; /* Optional padding for aesthetics */
+  
+
+}
+
+.nav-list {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    list-style-type: none; /* No bullet points */
+    padding: 0; 
+    margin: 0;
+}
+.nav-list li a{
+ cursor: pointer;   
+}
+
+#logo {
+    font-weight: bold; /* Make the logo stand out */
+    width: 70px;
+}
+
+.nav-links {
+    display: flex;
+    flex-grow:1; /* This allows the link container to grow to fill space */
+    justify-content: center;
+     gap: 50px;
+    align-items: center;
+    font-size: 150%; 
+}
+.search{
+    display: flex;
+    justify-content: center;
+    /* height: 50px; */
+}
+.search input{
+    height: 40px;
+}
+    
+#att {
+    text-decoration: none; /* Remove underline */
+    color:white;
+    margin: 10px; 
+}
+#att:hover {
+    color: red;; /* Change color on hover */
+}
+
+.footerbox{
+    background-image: linear-gradient(225deg, #041e25 0%, #80D0C7 100%);
+    color: rgb(210, 243, 243);
+    width: 100%;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    min-height: 0px;
+    padding: 10px;
+    
+}
+footer p {
+    margin: 0;
+    font-size:  20px;
+    color:rgb(250, 250, 250);
+ 
+}
+
+.contentbox{
+     width: 55%;
+    margin: auto;
+    /* border: 2px solid black; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 3rem;
+    box-shadow: 0px 0px 30px black;
+    /* background-color: rgb(245, 207, 207); */
+} 
+
+.Gulab{
+  margin-bottom: 0;
+  font-size: 2rem;
+  color: rgb(211, 77, 28);
+}
+.Ingredients{
+    margin-bottom: 0;
+   }
+.ingredientsbox{
+        margin: 0;
+    font-size: 1.1rem;
+    }
+.recipebox{
+       margin: 0;
+       padding: 0;
+        font-size: 1.1rem;
+    }
+ol {
+        margin: 0;
+    }
+
+    .laddu{
+        margin-bottom: 0;
+        font-size: 2rem;
+        color: rgb(211, 77, 28);
+      }
+
+
+   
+.Recipe1{
+    margin-bottom: 0;
+}
+      
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightbox{
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s linear 0;
+    /* box-shadow: 1px 1px 10px black;
+    border-radius: 20px; */
+}
+ .rightbox img{
+    height: 290px;
+    border-radius: 30px;
+    transition: all 0.6s linear 0s;
+    
+}
+.rightbox:hover{
+    transform: scale(1.1);
+}
+
+.rightbox .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(36,34,34,0.713);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 1 0.3sec linear 0s;
+}
+.rightbox .overlay span{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.rightbox:hover .overlay{
+    opacity: 1;
+
+}
+
+
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
